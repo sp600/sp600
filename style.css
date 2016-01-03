@@ -1,0 +1,50 @@
+.dropdown:hover .dropdown-menu {
+	display: block;
+	maring-top: 0;
+}
+
+.about > .jumbotron  {
+	background-image: url("../res/lawn.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.services > .jumbotron {
+	background-image: url("../res/river.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.testimonials > .jumbotron {
+	background-image: url("../res/status.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.team > .jumbotron {
+	background-image: url("../res/tower.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.contact > .jumbotron {
+	background-image: url("../res/tree.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.brand {
+	display: inline;
+	width: 30px;
+	height: 30px;
+}

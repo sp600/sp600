@@ -1,54 +1,64 @@
 <!-- index.html -->
-    <!DOCTYPE html>
-    <html ng-app='scotchApp'>
-    <head>
-      <!-- SCROLLS -->
-      <!-- load bootstrap and fontawesome via CDN -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html ng-app='scotchApp'>
+<head>
+	<meta charset="utf-8">
 
-      <!-- SPELLS -->
-      <!-- load angular and angular route via CDN -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular-route.min.js"></script>
-      <script src="script.js"></script>
+	<!-- load bootstrap and fontawesome via CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css"/>
 
-      <!-- Translation -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.8.1/angular-translate.js"></script>
+	<!-- load angular and angular route via CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular-route.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-      <script src="node_modules/pg-ng-dropdown/dest/pg-ng-dropdown.min.js"></script>
+	<!-- Dropdown Menu -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-      <!-- Display Chinese Characters -->
-      <meta charset="UTF-8">
+	<!-- Custom Scripts -->
+	<script src="script.js"></script>
 
-    </head>
-    <body ng-controller='mainController'>
+	<!-- Translation -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.8.1/angular-translate.js"></script>
 
-        <!-- HEADER AND NAVBAR -->
-        <header>
-            <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/">Dan Zheng's Site</a>
-                </div>
+</head>
+<body ng-controller='mainController'>
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
-                    <li><a href="#team"><i class="fa fa-shield"></i> Team</a></li>
-                    <li><a href="#services"><i class="fa fa-shield"></i> Services</a></li>
-                    <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
-                    <button ng-click='toggle()'>Toggle</button>
-                </ul>
-            </div>
-            </nav>
-        </header>
+	<!-- HEADER AND NAVBAR -->
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#/"><p><img class="brand" src="../res/logo_v6.svg">  Dan Zheng's Site</p></a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#/">Home</a></li>
+						<li><a href="#/about">About</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#/services">Services
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#/services#loc1">Domestic</a></li>
+									<li><a href="#/services#loc2">International</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="#/team">Team</a></li>
+							<li><a href="#/contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-        <!-- MAIN CONTENT AND INJECTED VIEWS -->
-        <div id="main">
-            <h1> {{ 'TITLE' | translate }}
-            <div ng-view></div>
-        </div>
+		<!-- MAIN CONTENT AND INJECTED VIEWS -->
+		<div id="main">
+			<div ng-view></div>
+		</div>
 
-    </body>
-    </html>
+	</body>
+	</html>
