@@ -29,14 +29,13 @@
 
 	<!-- HEADER AND NAVBAR -->
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" height="60px">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#/"><p><img class="brand" src="../res/logo_v6.svg">  Dan Zheng's Site</p></a>
+					<a class="navbar-brand" href="#/"><p><img class="brand" src="../res/logo_v6.svg"></p></a>
 				</div>
 				<div>
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#/">Home</a></li>
 						<li><a href="#/about">About</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#/services">Services
@@ -49,6 +48,7 @@
 							<li><a href="#">Testimonials</a></li>
 							<li><a href="#/team">Team</a></li>
 							<li><a href="#/contact">Contact</a></li>
+							<li><a ng-click="toggle()">Toggle</ad></li>
 						</ul>
 					</div>
 				</div>

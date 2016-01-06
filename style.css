@@ -3,48 +3,44 @@
 	maring-top: 0;
 }
 
-.about > .jumbotron  {
-	background-image: url("../res/lawn.jpg");
+.jumbotron {
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 500px;
+	background-size: auto;
+	height: 720px;
+}
+
+.about > .jumbotron  {
+	background-image: url("../res/tower.jpg");
 }
 
 .services > .jumbotron {
 	background-image: url("../res/river.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 500px;
 }
 
 .testimonials > .jumbotron {
 	background-image: url("../res/status.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 500px;
 }
 
 .team > .jumbotron {
 	background-image: url("../res/tower.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 500px;
 }
 
 .contact > .jumbotron {
 	background-image: url("../res/tree.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 500px;
+}
+.navbar-brand {
+	padding: 0 15px 15px 15px;
+	/*padding-top: 15px;*/
+	margin: 5px;
+}
+
+.navbar-nav > li > a {
+	line-height: 30px;
 }
 
 .brand {
 	display: inline;
-	width: 30px;
-	height: 30px;
+	width: 60px;
+	height: 60px;
 }
