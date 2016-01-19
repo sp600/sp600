@@ -25,6 +25,10 @@ scotchApp.config(function($routeProvider) {
 			controller  : 'aboutController'
 		})
 
+		.when('/testimonials', {
+			templateUrl: 'pages/testimonials.html'
+		})
+
 		// route for the services page
 		.when('/services', {
 			templateUrl : 'pages/services.html',

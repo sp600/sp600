@@ -10,16 +10,19 @@
 	height: 720px;
 }
 
+body {
+	padding-top: 110px; /* navbar height + 10 */
+}
 .about > .jumbotron  {
 	background-image: url("../res/tower.jpg");
 }
 
 .services > .jumbotron {
-	background-image: url("../res/river.jpg");
+	background-image: url("../res/services.jpg");
 }
 
 .testimonials > .jumbotron {
-	background-image: url("../res/status.jpg");
+	background-image: url("../res/testimonials.jpg");
 }
 
 .team > .jumbotron {
@@ -27,7 +30,7 @@
 }
 
 .contact > .jumbotron {
-	background-image: url("../res/tree.jpg");
+	background-image: url("../res/contact.jpg");
 }
 .navbar-brand {
 	padding: 0 15px 15px 15px;
@@ -35,11 +38,11 @@
 }
 
 .navbar-nav > li > a {
-	line-height: 30px;
+	line-height: 80px;
 }
 
 .brand {
 	display: inline;
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 }
