@@ -45,8 +45,10 @@ scotchApp.config(function($routeProvider) {
 // DAN - Change this part
 scotchApp.config(['$translateProvider', function($translateProvider) {
 	$translateProvider.translations('en', {
-		'TITLE': 'Hello',
-		'FOO': 'This is a paragraph',
+		// About Us
+		'ABOUT': 'Ivy Target is a college admissions counseling company that was founded by the students, for the students. We seek to match students and their academic and personal capabilities to colleges and universities. For many students and parents, the process seems arduous and complex, with often no source of help or resource other than the school’s overstaffed guidance counselor. '
+			+ 'In particular, we understand more than anyone the problems facing college applicants, having gone through the process ourselves. We feel both honored and obligated to pay it forward, and pass on the knowledge and experience garnered since our high school days. Everything from class selection in high school, standardized testing planning, resume and essay writing, to building your own customized set of colleges and more, our insights are unmatched by few. Ivy Target is here to help you reach your target.',
+		// Team Section
 		'TEAM': 'Resolute motivation and experience to help parents and '+
 				  'students navigate through the confusing and puzzling '+
 				  'application and admissions process. ',
@@ -59,12 +61,15 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM5': 'Bridging the divide between the two generations of parents and students. Acting as a translator and mediator between parents\' intentions and students\' aspirations.',
 		'TEAM6': 'Fluent in English, Mandarin, and Cantonese. Easy and constant communication with students and parents. ',
 		'TEAM7': '',
-		'ABOUT': 'Ivy Target is a college admissions counseling company that was founded by the students, for the students. We seek to match students and their academic and personal capabilities to colleges and universities. For many students and parents, the process seems arduous and complex, with often no source of help or resource other than the school\'s overstaffed guidance counselor. Having gone through the process ourselves, we provide rich insight on the application and college process that few others can match. Everything from class selection in high school, standardized testing planning, resume and essay writing, to building you your own customized set of colleges and more, Ivy Target is here to help.'
+		// About our Team
+		'SUSAN': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
 	  });
 
 	  $translateProvider.translations('de', {
-		'TITLE': 'Hallo',
-		'FOO': 'Dies ist ein Absatz',
+	  	// About Us
+		'ABOUT': '我们是毕业于美国长青藤大学的一群优秀学子，当年的学业和升学都遇到了很大的挑战，但是我们都从艰难困境中成功地走了出来。回首往日我们冲语言障碍，考特殊高中，学特长技能，做有效义工，写大学论文，填助学补助申请，等等。 过关斩将, 踏进名校，再入理想职场。展望前程，辉煌似锦! '
+			+ '今天我们特别理解与我们一样面临着挑战的学弟学妹们。因此，我们更觉得应当有这份爱心和义务在工作和学习之余，将我们所得的宝贵经验和深刻教训毫无保留地与你们分享。最值得我们感到欣慰的是,我们真诚的服务与帮助已经使许多学生进入了超越他们自身水平的理想大学。',
+		// Team Section
 		'TEAM': '我们拥有强烈的愿望，无私的爱心，积极的态度和宝贵的经验，更有不断地探索，不懈地努力的精神去帮助有需求的学生进入他们最理想的大学。',
 		'TEAM1': '具有当年申请大学的亲身经历和成功经验，是最前沿的最新亲历者，都是实战经历，不是纸上谈兵。',
 		'TEAM2': '有良好完善的名校同学人脉网络和大学信息资源。',
