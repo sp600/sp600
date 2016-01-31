@@ -63,6 +63,16 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM7': '',
 		// About our Team
 		'SUSAN': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
+		//Testimonials Section
+		'TESTIMONIALS': 'Why Ivy Target?',
+		'TESTIMONIALS1': 'Our team has the personal experience and knowledge of the admissions and application process - we know the in\'s and out\'s of standardized testing, and understand how difficult and time consuming certain courses and exams are. Our extensive understanding of the U.S. college system, selection criteria, acceptance rates, and what they look for in a candidate is based on empirical facts and knowledge.',
+		'TESTIMONIALS2': 'Our team members have attended a variety of schools, and can speak to the real difference between public and private, liberal arts and technical, and large and small schools. We also have admissions and professional contacts at universities that can give us the inside-scoop and latest news happening on campus. ',
+		'TESTIMONIALS3': 'We seek to bridge the divide between the two generations – parents and students. Acting as a translator and mediator between parents’ intentions and students’ aspirations. We are fluent in English, Mandarin, and Cantonese, and work non-stop to bring you the results that you deserve. ',
+		// 'TESTIMONIALS4': '',
+		// 'TESTIMONIALS5': '',
+		// 'TESTIMONIALS6': '',
+		// 'TESTIMONIALS7': '',
+		// 'TESTIMONIALS8': '',
 	  });
 
 	  $translateProvider.translations('de', {
@@ -78,8 +88,10 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM5': '每个队员都有着不同的求职经历及宝贵经验，更了解哪些大学及专业倍受关注与钦赖。',
 		'TEAM6': '我们有在中国和美国生活的不同经历和亲身体验，更了解中国学生和家长的处境和愿望。',
 		'TEAM7': '流利英文，国语，广东话， 便于与家长/学生沟通交流。',
-		'ABOUT': '   我们是毕业于长青藤大学的学生，多位现已就职于国际著名公司和财团，都是从艰难困境中成功走出来的中国学生。当年苦于我们的父母帮不上忙，所以学业和升学都遇到了很大的挑战。今天我们特别理解与我们一样面临着挑战的学弟学妹们。回首往日我们冲语言障碍，考特殊高中，学特长技能，做有效义工，写大学论文，填补助申请，等等。 过关斩将, 踏进名校，再入理想职场。展望前程似锦，美国梦不再遥不可及! 因此，我们更觉得应当有这份爱心和义务在工作和学习之余，将我们所得的宝贵经验和深刻教训毫无保留地与你们分享。最值得我们感到欣慰的是,我们真诚的服务与帮助已经使许多学生进入超越他们自身水平的理想大学。'+
-					'各位学生/家长们：\n你对美国的教育系统如何运作，每年大学招生又有怎样的变化是否真正了解?\n    各类大学都希望招收怎样特征的学生呢？\n    成绩优异就能进入著名大学吗? \n    为什么许多SAT高分的学生却没有被名校录取？\n    从读高中到申请大学，你的目标和方案是否具体，科学，有效呢？\n    做好哪些准备才能进入又理想，又能得到更多补助金的性价比高的大学呢？\n    心急如焚、又束手无策的家长如何才能理顺头绪，有的放矢地帮助孩子呢? \n\n    标榜升学顾问团队愿意和迷惘的学弟学妹及叔叔阿姨们分享我们的亲身经历，经验和教训，为你们指点迷津，并伴随你们共同走好人生这段最重要的旅程。\n人生的关键时刻只有几步，我们不仅帮助你们完成高中阶段的全部升学准备，顺利升入理想大学，还将继续帮助你们进入理想职场，踏上成功就业之路。我们大部分队员都已经在享有盛誉的大公司和财团工作，能为即将大学毕业寻求职业的学生提供有效的信息和帮助。\n我们顾问团队成员就如同你们的私人教练，自始至终跟踪陪伴辅导你们，教会你们独立处理高中、大学期间将要面临的问题，在所有的关键时刻协助你们，支持与鼓励你们追求自己的梦想和职业目标。\n      我们衷心希望将来你们也能加入我们的团队，用你们的爱心，经验和能力去帮助那些有需求的学弟学妹们，把这互助的火炬传递下去。我坚信这个团队所构建的人脉网络，将会成为有助你事业发展的基石，因为这是群成功的佼佼者，从你们中将走出医生、律师、教授、实业家、金融家、科学家、军事家、政治家、无所不能。你们的不懈努力将创造奇迹、改写历史！',
+		// About Our Team
+		'SUSAN': '毕业于中国师范大学，又继续深造完成了美国大学的教育专业课程。拥有30多年在中国及美国的从教经验，不仅了解中美的教育体系，更了解各类学生的需求，从而能为学生们提供高质量，个性化的专业服务。'
+			+ '闲暇时间喜欢演奏乐器，练太极拳，以及阅读。',
+		// Services
 		'SERVICES': '美国高中申请大学全面规划指导',
 		'SERVICES1': '中国学生申请美国学校',
 		'SERVICES2': '初中申请高中',
@@ -87,6 +99,16 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'SERVICES4': '本科申请续读本科',
 		'SERVICES5': '本科申请硕士',
 		'SERVICES6': '硕士申请博士',
+		//Testimonials Section
+		'TESTIMONIALS': '团队优势',
+		'TESTIMONIALS1': '我们拥有强烈的愿望，无私的爱心，积极的态度和宝贵的经验，更有不断地探索，不懈地努力的精神去帮助有需求的学生进入他们最理想的大学',
+		'TESTIMONIALS2': '具有当年申请大学的亲身经历和成功经验，是最前沿的最新亲历者，都是实战经历，不是纸上谈兵',
+		'TESTIMONIALS3': '有良好完善的名校同学人脉网络和大学信息资源',
+		'TESTIMONIALS4': '身临其境，更真实地了解不同大学的优势，录取倾向，标准及择优条件',
+		'TESTIMONIALS5': '每个队员都曾有独特精彩的大学学习经历，能提供给学生难能可贵的借鉴经验',
+		'TESTIMONIALS6': '每个队员都有着不同的求职经历及宝贵经验，更了解哪些大学及专业倍受关注与钦赖',
+		'TESTIMONIALS7': '我们有在中国和美国生活的不同经历和亲身体验，更了解中国学生和家长的处境和愿望',
+		'TESTIMONIALS8': '流利英文，国语，广东话， 便于与家长/学生沟通交流',
 	  });
 	  $translateProvider.preferredLanguage('en');
 }])
