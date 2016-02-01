@@ -64,6 +64,27 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM7': '',
 		// About our Team
 		'SUSAN': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
+		//Services Section
+		'SERVICES': 'International services for Chinese high school and college students',
+		'SERVICESH1': 'Consultation and planning ',
+		'SERVICES1': 'We provide a free consultation for the student and parents, explaining the due process and ready to answer questions',
+		'SERVICES2': 'Depending on the student’s interests, academic records, and preferences, prepare a personalized list of schools, as well as develop a comprehensive education and employment plan ',
+		'SERVICESH2': 'Information gathering and application preparation',
+		'SERVICES3': 'Inform the student and parents of various required documents, forms, and verification needed',
+		'SERVICES4': 'Revise and proofread student’s essays (including personal statement), supplements, resume, and other supporting materials',
+		'SERVICES5': 'Help the student complete the application if needed',
+		'SERVICESH3': 'School and visa interview guidance',
+		'SERVICES6': 'Conduct mock school interviews with student, using experienced American interviewers by telephone. Repeat however many times until student is fluent and confident in answering questions',
+		'SERVICES7': 'Thoroughly explain visa process after admission, and provide mock interviews for visa interviews',
+		'SERVICESH4': 'Arrival in the United States',
+		'SERVICES8': 'Guidance on behind the scenes affairs such as physical examination, vaccination, currencies, bank accounts, immigration customs, and so forth',
+		'SERVICES9': 'Introduction to American culture, norms, and customs, as well as setting up the hosting family',
+		'SERVICES10': 'Airport pick up, as well as escort and help to open bank account, cell phone service, and initial necessities shopping. NOTE if school is not within range of our members, we cannot provide this service',
+		'SERVICESH5': 'Routine check-in after starting school (high school students only)',
+		'SERVICES11': 'Act as guardians for the students to check on their progress, host family, school life, and any situations that come up. We will communicate regularly with schools and host families and act as liaisons to the parents. ',
+		'SERVICES12': 'Regularly visit the students and hold holiday reunion activities with other students and day trips',
+		'SERVICES13': 'Advise and develop the students\' overall academic and professional development in preparation for college',
+
 		//Testimonials Section
 		'TESTIMONIALS': 'Why Ivy Target?',
 		'TESTIMONIALS1': 'Our team has the personal experience and knowledge of the admissions and application process - we know the in\'s and out\'s of standardized testing, and understand how difficult and time consuming certain courses and exams are. Our extensive understanding of the U.S. college system, selection criteria, acceptance rates, and what they look for in a candidate is based on empirical facts and knowledge.',
@@ -128,7 +149,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'COLLEGES56': 'Yale University',
 	  });
 
-	  $translateProvider.translations('de', {
+	  $translateProvider.translations('cn', {
 	  	// About Us
 		'ABOUT': '我们是毕业于美国长青藤大学的一群优秀学子，当年的学业和升学都遇到了很大的挑战，但是我们都从艰难困境中成功地走了出来。回首往日我们冲语言障碍，考特殊高中，学特长技能，做有效义工，写大学论文，填助学补助申请，等等。 过关斩将, 踏进名校，再入理想职场。展望前程，辉煌似锦! '
 			+ '今天我们特别理解与我们一样面临着挑战的学弟学妹们。因此，我们更觉得应当有这份爱心和义务在工作和学习之余，将我们所得的宝贵经验和深刻教训毫无保留地与你们分享。最值得我们感到欣慰的是,我们真诚的服务与帮助已经使许多学生进入了超越他们自身水平的理想大学。',
@@ -145,13 +166,25 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'SUSAN': '毕业于中国师范大学，又继续深造完成了美国大学的教育专业课程。拥有30多年在中国及美国的从教经验，不仅了解中美的教育体系，更了解各类学生的需求，从而能为学生们提供高质量，个性化的专业服务。'
 			+ '闲暇时间喜欢演奏乐器，练太极拳，以及阅读。',
 		// Services
-		'SERVICES': '美国高中申请大学全面规划指导',
-		'SERVICES1': '中国学生申请美国学校',
-		'SERVICES2': '初中申请高中',
-		'SERVICES3': '高中申请本科',
-		'SERVICES4': '本科申请续读本科',
-		'SERVICES5': '本科申请硕士',
-		'SERVICES6': '硕士申请博士',
+		'SERVICES': '中国留学生申请美国高中/大学服务内容：',
+		'SERVICESH1': '咨询服务',
+		'SERVICES1': '我们提供免费咨询服务，讲解申请流程，解答学生/家长的问题。',
+		'SERVICESH2': '规划方案',
+		'SERVICES2': '和学生及家长谈话，根据学生的具体情况，制定出最佳留学方案。',
+		'SERVICESH3': '准备资料',
+		'SERVICES3': '协助准备各类申请资料，负责编辑撰写各类文书，如，简历，个人自述，推荐信，申请论文，证明材料，等等。',
+		'SERVICESH4': '申请学校',
+		'SERVICES4': '为学生选择不同档次的学校，完成多所学校的申请。',
+		'SERVICESH5': '面试辅导',
+		'SERVICES5': '通过电话辅导英语，多次进行学校面试培训直到对答如流。',
+		'SERVICES6': '签证指导',
+		'SERVICES7': '精心准备签证材料，讲解签证须知与技巧，进行多次面签训练。',
+		'SERVICES8': '赴美指导',
+		'SERVICES9': '安排与指导赴美前系列事务，如:体检，疫苗注射，换汇购汇，准备携带的文件，入境海关事项，等等。介绍讲解学校，寄宿家庭，文化风俗差异等等。',
+		'SERVICES10': '入境美国服务',
+		'SERVICES11': '提供机场接机，并送到入住家庭/学校。带领到校注册报到。帮助办理银行开户，手机开户，购买生活用品，等等。注：如果学校不在我们的服务范围之内，则不提供此项服务。',
+		'SERVICES12': '入学后服务（仅适用高中生）',
+		'SERVICES13': '做为学生的监护人，我们就是学生在美国的家长。本公司将定期与学校和寄宿家庭沟通，及时了解掌握学生的情况，随时解决存在的问题。与此同时，我们也会定期与家长联系，报告孩子生活及学习情况。我们还将定期探访学生，举行节假日团聚等活动。本公司的专业顾问将为学生制定全面具体的申请大学的规划方案，并按照此方案进行学业跟踪指导，直到升入理想大学。',
 		//Testimonials Section
 		'TESTIMONIALS': '团队优势',
 		'TESTIMONIALS1': '我们拥有强烈的愿望，无私的爱心，积极的态度和宝贵的经验，更有不断地探索，不懈地努力的精神去帮助有需求的学生进入他们最理想的大学. 具有当年申请大学的亲身经历和成功经验，是最前沿的最新亲历者，都是实战经历，不是纸上谈兵',
@@ -225,7 +258,7 @@ scotchApp.controller('mainController', ['$translate', '$scope', function($transl
 	$scope.toggle = function() {
 		console.log('Hello world!!')
 		if($scope.langKey === 'en') {
-			$scope.langKey = 'de'
+			$scope.langKey = 'cn'
 		} else {
 			$scope.langKey = 'en'
 		}
