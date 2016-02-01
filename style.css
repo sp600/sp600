@@ -46,3 +46,8 @@ body {
 	width: 80px;
 	height: 80px;
 }
+
+article {
+	-webkit-columns: 3 100px;
+	columns: 3 100px;
+}
