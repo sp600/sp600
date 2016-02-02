@@ -51,3 +51,22 @@ article {
 	-webkit-columns: 3 100px;
 	columns: 3 100px;
 }
+
+.profile > .img-circle {
+	border-radius: 50%;
+	float: center;
+}
+
+.profile {
+	width: 15%;
+	height: 200px;
+	margin-left: 15px;
+	float: left;
+}
+
+section {
+	width: 80%;
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+}

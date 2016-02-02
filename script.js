@@ -64,6 +64,11 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM7': '',
 		// About our Team
 		'SUSAN': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
+		'DANIEL': 'Graduated from Cornell University with an undergraduate degree in engineering. In his free time, he enjoys long distance running and investing in the financial markets',
+		'CHRIS': 'Graduated from University of Pennsylvania with an undergraduate degree in physics. He is currently pursuing a PhD from Yale University in quantum physics. In his spare time, he plays competitive ultimate at the college level and enjoys cooking',
+		'JOHN': 'Graduated from New York University with an undergraduate degree in finance and economics. He enjoys traveling and biking',
+		'ANGELA': 'Graduated from Boston College with an undergraduate degree in math and computer science. She enjoys discovering and trying out new restaurants and venues',
+		'STEVE': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature',
 		//Services Section
 		'SERVICES': 'International services for Chinese high school and college students',
 		'SERVICESH1': 'Consultation and planning ',
@@ -165,6 +170,11 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		// About Our Team
 		'SUSAN': '毕业于中国师范大学，又继续深造完成了美国大学的教育专业课程。拥有30多年在中国及美国的从教经验，不仅了解中美的教育体系，更了解各类学生的需求，从而能为学生们提供高质量，个性化的专业服务。'
 			+ '闲暇时间喜欢演奏乐器，练太极拳，以及阅读。',
+		'DANIEL': '毕业于长青藤名校康奈尔大学(Cornell University)工程学院，现兼任康奈尔大学招生官。 热爱运动，擅长长跑和室内攀岩。热衷金融，善于投资理财。',
+		'CHRIS': '毕业于长青藤名校滨州大学(University of Pennsylvania)物理系，现就读于另一所长青藤名校耶鲁大学(Yale University)攻读量子物理学博士。擅长玩飞碟，经常参加训练与比赛，还非常喜欢自己烹饪美食。',
+		'JOHN': '毕业于纽约大学史顿商学院(NYU Stern)，获硕士学位。喜欢旅行和赛自行车。',
+		'ANGELA': '毕业于波士顿大学(Boston College)数学与计算机专业。总是喜欢发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
+		'STEVE': '毕业于芝加哥大学（University of Chicago）英语文学，及历史专业。酷爱绘画与德国文学史。',
 		// Services
 		'SERVICES': '中国留学生申请美国高中/大学服务内容：',
 		'SERVICESH1': '咨询服务',
