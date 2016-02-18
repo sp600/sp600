@@ -304,3 +304,7 @@ scotchApp.controller('servicesController', function($scope) {
 scotchApp.controller('contactController', function($scope) {
 	$scope.message = 'Contact us! JK. This is just a demo.';
 });
+
+scotchApp.controller('testimonialsController', function($scope) {
+	$scope.message = 'Look! I am a testimonial page.';
+});
