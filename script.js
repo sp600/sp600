@@ -69,7 +69,22 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'JOHN': 'Graduated from New York University with an undergraduate degree in finance and economics. He enjoys traveling and biking',
 		'ANGELA': 'Graduated from Boston College with an undergraduate degree in math and computer science. She enjoys discovering and trying out new restaurants and venues',
 		'STEVE': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature',
-		//Services Section
+		//Domestic Services Section
+		'DOMESTIC1': 'Complete high school planning process and college application guidance',
+		'DOMESTIC2': 'Develop a plan for high school classes every year, including electives, honors, and Advanced Placement (AP)',
+		'DOMESTIC3': 'Schedule the right time for standardized exams such as SAT, ACT, and SAT II’s to ensure minimum overlap and disruption',
+		'DOMESTIC4': 'Recommend and suggest extracurricular activities such as sports, clubs, and volunteer that align with the students’ interest as well as aid their application',
+		'DOMESTIC5': 'Plan out summer activities, including potential jobs, internships and classes',
+		'DOMESTIC6': 'Schedule visits to colleges and universities during breaks to ensure students and their family are exposed to the different types of schools',
+		'DOMESTIC7': 'Step by step walkthrough of the school selection process and application process based on our personal and empirical knowledge',
+		'DOMESTIC8': 'Recommendations of target, reach, and safety schools to student based on their own interests, personality, preferences, and academic record. The each list is personally and manually generated, utilizing our team’s personal aggregate knowledge of the university system',
+		'DOMESTIC9': 'Assist students in crafting their resumes, as well as generating ideas for their personal statement',
+		'DOMESTIC10': 'Critique and revise students’ essays and supplements to various colleges',
+		'DOMESTIC11': 'Cater to special and unique needs and schools such as athlete recruiting, arts and dance schools, military academies, aerospace schools, and so forth',
+		'DOMESTIC12': 'Walkthrough of FAFSA, CSS Profile and other financial aid forms and applications to ensure maximum aid (if eligible), and negotiations with schools for more aid (if needed)',
+		'DOMESTIC13': 'And more… ',
+
+		//International Services Section
 		'SERVICES': 'International services for Chinese high school and college students',
 		'SERVICESH1': 'Consultation and planning ',
 		'SERVICES1': 'We provide a free consultation for the student and parents, explaining the due process and ready to answer questions',
