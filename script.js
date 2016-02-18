@@ -109,7 +109,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TESTIMONIALS': 'Why Ivy Target?',
 		'TESTIMONIALS1': 'Our team has the personal experience and knowledge of the admissions and application process - we know the in\'s and out\'s of standardized testing, and understand how difficult and time consuming certain courses and exams are. Our extensive understanding of the U.S. college system, selection criteria, acceptance rates, and what they look for in a candidate is based on empirical facts and knowledge.',
 		'TESTIMONIALS2': 'Our team members have attended a variety of schools, and can speak to the real difference between public and private, liberal arts and technical, and large and small schools. We also have admissions and professional contacts at universities that can give us the inside-scoop and latest news happening on campus. ',
-		'TESTIMONIALS3': 'We seek to bridge the divide between the two generations – parents and students. Acting as a translator and mediator between parents’ intentions and students’ aspirations. We are fluent in English, Mandarin, and Cantonese, and work non-stop to bring you the results that you deserve. ',
+		'TESTIMONIALS3': 'We seek to bridge the divide between the two generations – parents and students. Acting as a translator and mediator between parents\' intentions and students\' aspirations. We are fluent in English, Mandarin, and Cantonese, and work non-stop to bring you the results that you deserve. ',
 		//Colleges Section
 		'COLLEGES1': 'Adelphi University',
 		'COLLEGES2': 'Barnard College',
