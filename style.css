@@ -8,6 +8,14 @@
 	background-repeat: no-repeat;
 	background-size: auto;
 	height: 720px;
+	dipslay: inline-block;
+}
+
+.page-label {
+	margin-top: 10%;
+	color: red;
+	position: relative;
+	z-index: 999;
 }
 
 body {
