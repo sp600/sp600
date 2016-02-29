@@ -8,21 +8,12 @@
     <div class='container' width='50%'>
         <h2 id="loc1"> {{'DOMESTIC1' | translate }}</h2>
         <ul>
-            <li>{{ 'DOMESTIC2' | translate }}</li>
-            <li>{{ 'DOMESTIC3' | translate }}</li>
-            <li>{{ 'DOMESTIC4' | translate }}</li>
-            <li>{{ 'DOMESTIC5' | translate }}</li>
-            <li>{{ 'DOMESTIC6' | translate }}</li>
+            <li ng-repeat="x in ['DOMESTIC2', 'DOMESTIC3', 'DOMESTIC4', 'DOMESTIC5', 'DOMESTIC6']">{{ x | translate}}</li>
         </ul>
 
         <h3>{{ 'DOMESTIC7' | translate }}</h3>
         <ul>
-            <li>{{ 'DOMESTIC8' | translate }}</li>
-            <li>{{ 'DOMESTIC9' | translate }}</li>
-            <li>{{ 'DOMESTIC10' | translate }}</li>
-            <li>{{ 'DOMESTIC11' | translate }}</li>
-            <li>{{ 'DOMESTIC12' | translate }}</li>
-            <li>{{ 'DOMESTIC13' | translate }}</li>
+            <li ng-repeat="x in ['DOMESTIC8', 'DOMESTIC9', 'DOMESTIC10', 'DOMESTIC11', 'DOMESTIC12', 'DOMESTIC13']">{{x | translate}}</li>
         </ul>
 
         <h2 id="loc2">{{'SERVICES' | translate }}</h2>

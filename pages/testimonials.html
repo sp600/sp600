@@ -8,68 +8,12 @@
 	<div class='container'>
 	<p>{{ 'TESTIMONIALS' | translate }}</p>
 	<ul>
-		<li>{{ 'TESTIMONIALS1' | translate }}</li>
-		<li>{{ 'TESTIMONIALS2' | translate }}</li>
-		<li>{{ 'TESTIMONIALS3' | translate }}</li>
+		<li ng-repeat="x in [1, 2, 3]">{{ 'TESTIMONIALS'+x | translate }}</li>
 	</ul>
 	</div>
 
 	<div class='container'>
 		<article>
-			<li>{{ 'COLLEGES1' | translate }}</li>
-			<li>{{ 'COLLEGES2' | translate }}</li>
-			<li>{{ 'COLLEGES3' | translate }}</li>
-			<li>{{ 'COLLEGES4' | translate }}</li>
-			<li>{{ 'COLLEGES5' | translate }}</li>
-			<li>{{ 'COLLEGES6' | translate }}</li>
-			<li>{{ 'COLLEGES7' | translate }}</li>
-			<li>{{ 'COLLEGES8' | translate }}</li>
-			<li>{{ 'COLLEGES9' | translate }}</li>
-			<li>{{ 'COLLEGES10' | translate }}</li>
-			<li>{{ 'COLLEGES11' | translate }}</li>
-			<li>{{ 'COLLEGES12' | translate }}</li>
-			<li>{{ 'COLLEGES13' | translate }}</li>
-			<li>{{ 'COLLEGES14' | translate }}</li>
-			<li>{{ 'COLLEGES15' | translate }}</li>
-			<li>{{ 'COLLEGES16' | translate }}</li>
-			<li>{{ 'COLLEGES17' | translate }}</li>
-			<li>{{ 'COLLEGES18' | translate }}</li>
-			<li>{{ 'COLLEGES19' | translate }}</li>
-			<li>{{ 'COLLEGES20' | translate }}</li>
-			<li>{{ 'COLLEGES21' | translate }}</li>
-			<li>{{ 'COLLEGES22' | translate }}</li>
-			<li>{{ 'COLLEGES23' | translate }}</li>
-			<li>{{ 'COLLEGES24' | translate }}</li>
-			<li>{{ 'COLLEGES25' | translate }}</li>
-			<li>{{ 'COLLEGES26' | translate }}</li>
-			<li>{{ 'COLLEGES27' | translate }}</li>
-			<li>{{ 'COLLEGES28' | translate }}</li>
-			<li>{{ 'COLLEGES29' | translate }}</li>
-			<li>{{ 'COLLEGES30' | translate }}</li>
-			<li>{{ 'COLLEGES31' | translate }}</li>
-			<li>{{ 'COLLEGES32' | translate }}</li>
-			<li>{{ 'COLLEGES33' | translate }}</li>
-			<li>{{ 'COLLEGES34' | translate }}</li>
-			<li>{{ 'COLLEGES35' | translate }}</li>
-			<li>{{ 'COLLEGES36' | translate }}</li>
-			<li>{{ 'COLLEGES37' | translate }}</li>
-			<li>{{ 'COLLEGES38' | translate }}</li>
-			<li>{{ 'COLLEGES39' | translate }}</li>
-			<li>{{ 'COLLEGES40' | translate }}</li>
-			<li>{{ 'COLLEGES41' | translate }}</li>
-			<li>{{ 'COLLEGES42' | translate }}</li>
-			<li>{{ 'COLLEGES43' | translate }}</li>
-			<li>{{ 'COLLEGES44' | translate }}</li>
-			<li>{{ 'COLLEGES45' | translate }}</li>
-			<li>{{ 'COLLEGES46' | translate }}</li>
-			<li>{{ 'COLLEGES47' | translate }}</li>
-			<li>{{ 'COLLEGES48' | translate }}</li>
-			<li>{{ 'COLLEGES49' | translate }}</li>
-			<li>{{ 'COLLEGES50' | translate }}</li>
-			<li>{{ 'COLLEGES51' | translate }}</li>
-			<li>{{ 'COLLEGES52' | translate }}</li>
-			<li>{{ 'COLLEGES53' | translate }}</li>
-			<li>{{ 'COLLEGES54' | translate }}</li>
-			<li>{{ 'COLLEGES55' | translate }}</li>
+			<li ng-model="" ng-repeat="n in [] | range:55">{{'COLLEGES'+n | translate}}</li>
 		</article>
 	</div>

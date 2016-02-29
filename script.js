@@ -3,6 +3,19 @@
 // create the module and name it scotchApp
 var scotchApp = angular.module('scotchApp', ['ngRoute', 'pascalprecht.translate']);
 
+scotchApp.filter('range', function () {
+        return function(input, end) {
+            start = 1;
+		    end = parseInt(end);
+
+		    for (var i=start; i<end; i++) {
+		      input.push(i);
+		    }
+
+		    return input;
+		  };
+    });
+
 // configure our routes
 scotchApp.config(function($routeProvider) {
 	$routeProvider
@@ -295,7 +308,6 @@ scotchApp.controller('mainController', ['$translate', '$scope', function($transl
 	$scope.message = 'Everyone come and see how good I look!';
 	$scope.langKey = 'en'
 	$scope.toggle = function() {
-		console.log('Hello world!!')
 		if($scope.langKey === 'en') {
 			$scope.langKey = 'cn'
 		} else {
