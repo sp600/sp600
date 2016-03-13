@@ -4,9 +4,10 @@
         <!-- <img src="res/logo_v6.png" width="460px" style="center center black"> -->
         <p class="page-label" style="font-size:36px">Services</p>
     </div>
+    <div id="loc1"></div>
     </div>
-    <div class='container' width='50%'>
-        <h2 id="loc1"> {{'DOMESTIC1' | translate }}</h2>
+    <div class='container' width='50%' style="margin-top: 120px">
+        <h2> {{'DOMESTIC1' | translate }}</h2>
         <ul>
             <li ng-repeat="x in ['DOMESTIC2', 'DOMESTIC3', 'DOMESTIC4', 'DOMESTIC5', 'DOMESTIC6']">{{ x | translate}}</li>
         </ul>
@@ -16,7 +17,7 @@
             <li ng-repeat="x in ['DOMESTIC8', 'DOMESTIC9', 'DOMESTIC10', 'DOMESTIC11', 'DOMESTIC12', 'DOMESTIC13']">{{x | translate}}</li>
         </ul>
 
-        <h2 id="loc2">{{'SERVICES' | translate }}</h2>
+        <h2 id="loc2" style="margin-top: 100px">{{'SERVICES' | translate }}</h2>
         <h3>{{'SERVICESH1' | translate }}</h3>
         <ul>
             <li>{{'SERVICES1' | translate }}</li>
@@ -45,4 +46,5 @@
             <li>{{'SERVICES12' | translate }}</li>
             <li>{{'SERVICES13' | translate }}</li>
         </ul>
+		<div style="padding-bottom: 150px"></div>
     </div>
