@@ -76,12 +76,12 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM6': 'Fluent in English, Mandarin, and Cantonese. Easy and constant communication with students and parents. ',
 		'TEAM7': '',
 		// About our Team
-		'SUSAN': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
-		'DANIEL': 'Graduated from Cornell University with an undergraduate degree in engineering. In his free time, he enjoys long distance running and investing in the financial markets',
-		'CHRIS': 'Graduated from University of Pennsylvania with an undergraduate degree in physics. He is currently pursuing a PhD from Yale University in quantum physics. In his spare time, he plays competitive ultimate at the college level and enjoys cooking',
-		'JOHN': 'Graduated from New York University with an undergraduate degree in finance and economics. He enjoys traveling and biking',
-		'ANGELA': 'Graduated from Boston College with an undergraduate degree in math and computer science. She enjoys discovering and trying out new restaurants and venues',
-		'STEVE': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature',
+		'Susan': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
+		'Daniel': 'Graduated from Cornell University with an undergraduate degree in engineering. In his free time, he enjoys long distance running and investing in the financial markets',
+		'Chris': 'Graduated from University of Pennsylvania with an undergraduate degree in physics. He is currently pursuing a PhD from Yale University in quantum physics. In his spare time, he plays competitive ultimate at the college level and enjoys cooking',
+		'John': 'Graduated from New York University with an undergraduate degree in finance and economics. He enjoys traveling and biking',
+		'Angela': 'Graduated from Boston College with an undergraduate degree in math and computer science. She enjoys discovering and trying out new restaurants and venues',
+		'Steve': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature',
 		//Domestic Services Section
 		'DOMESTIC1': 'Complete high school planning process and college application guidance',
 		'DOMESTIC2': 'Develop a plan for high school classes every year, including electives, honors, and Advanced Placement (AP)',
@@ -196,13 +196,13 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TEAM6': '我们有在中国和美国生活的不同经历和亲身体验，更了解中国学生和家长的处境和愿望。',
 		'TEAM7': '流利英文，国语，广东话， 便于与家长/学生沟通交流。',
 		// About Our Team
-		'SUSAN': '毕业于中国师范大学，又继续深造完成了美国大学的教育专业课程。拥有30多年在中国及美国的从教经验，不仅了解中美的教育体系，更了解各类学生的需求，从而能为学生们提供高质量，个性化的专业服务。'
+		'Susan': '毕业于中国师范大学，又继续深造完成了美国大学的教育专业课程。拥有30多年在中国及美国的从教经验，不仅了解中美的教育体系，更了解各类学生的需求，从而能为学生们提供高质量，个性化的专业服务。'
 			+ '闲暇时间喜欢演奏乐器，练太极拳，以及阅读。',
-		'DANIEL': '毕业于长青藤名校康奈尔大学(Cornell University)工程学院，现兼任康奈尔大学招生官。 热爱运动，擅长长跑和室内攀岩。热衷金融，善于投资理财。',
-		'CHRIS': '毕业于长青藤名校滨州大学(University of Pennsylvania)物理系，现就读于另一所长青藤名校耶鲁大学(Yale University)攻读量子物理学博士。擅长玩飞碟，经常参加训练与比赛，还非常喜欢自己烹饪美食。',
-		'JOHN': '毕业于纽约大学史顿商学院(NYU Stern)，获硕士学位。喜欢旅行和赛自行车。',
-		'ANGELA': '毕业于波士顿大学(Boston College)数学与计算机专业。总是喜欢发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
-		'STEVE': '毕业于芝加哥大学（University of Chicago）英语文学，及历史专业。酷爱绘画与德国文学史。',
+		'Daniel': '毕业于长青藤名校康奈尔大学(Cornell University)工程学院，现兼任康奈尔大学招生官。 热爱运动，擅长长跑和室内攀岩。热衷金融，善于投资理财。',
+		'Chris': '毕业于长青藤名校滨州大学(University of Pennsylvania)物理系，现就读于另一所长青藤名校耶鲁大学(Yale University)攻读量子物理学博士。擅长玩飞碟，经常参加训练与比赛，还非常喜欢自己烹饪美食。',
+		'John': '毕业于纽约大学史顿商学院(NYU Stern)，获硕士学位。喜欢旅行和赛自行车。',
+		'Angela': '毕业于波士顿大学(Boston College)数学与计算机专业。总是喜欢发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
+		'Steve': '毕业于芝加哥大学（University of Chicago）英语文学，及历史专业。酷爱绘画与德国文学史。',
 		//Domestic Services
 		'DOMESTIC1': '完成高中规划及大学申请指导的全过程:',
 		'DOMESTIC2': '根据学生的情况每年制定切实可行的学习计划，指导学生合理选课---必修课程, 荣誉课（Honor）及大学先修课（AP）。',

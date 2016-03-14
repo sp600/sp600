@@ -6,37 +6,10 @@
     </div>
     </div>
 
-    <section>
-        <div class='profile'>
-            <img class='img-circle' src='res/Susan.jpg' height='50%' width='50%'>
-            <p text-align='center'>Susan</p>
-            <p>{{ 'SUSAN' | translate }}</p>
+    <div class="row" ng-repeat="names in [['Susan', 'Daniel', 'Chris'], ['John', 'Angela', 'Steve']]">
+        <div class="profile" ng-repeat="name in names">
+            <img class="img-circle" src="res/{{name}}.jpg" height="50%" width="50%">
+            <p text-align="center">{{name}}</p>
+            <p>{{name | translate}}</p>
         </div>
-        <div class='profile'>
-            <img class='img-circle' src='res/Dan.jpg' height='50%' width='50%'>
-            <p>Daniel</p>
-            <p>{{ 'DANIEL' | translate }}</p>
-        </div>
-        <div class='profile'>
-            <img class='img-circle' src='res/Chris.jpg' height='50%' width='50%'>
-            <p>Chris</p>
-            <p>{{ 'CHRIS' | translate }}</p>
-        </div>
-    </section>
-    <section>
-        <div class='profile'>
-            <img class='img-circle' src='res/John.jpg' height='50%' width='50%'>
-            <p>John</p>
-            <p>{{ 'JOHN' | translate }}</p>
-        </div>
-        <div class='profile'>
-            <img class='img-circle' src='res/Angela.jpg' height='50%' width='50%'>
-            <p>Angela</p>
-            <p>{{ 'ANGELA' | translate }}</p>
-        </div>
-        <div class='profile'>
-            <img class='img-circle' src='res/Steve.jpg' height='50%' width='50%'>
-            <p>Steve</p>
-            <p>{{ 'STEVE' | translate }}</p>
-        </div>
-    </section>
+    </div>

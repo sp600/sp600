@@ -61,9 +61,10 @@ article {
 	columns: 3 100px;
 }
 
-.profile > .img-circle {
+.img-circle {
 	border-radius: 50%;
 	float: center;
+	max-width: 100px;
 }
 
 .profile {
@@ -71,6 +72,9 @@ article {
 	height: 200px;
 	margin-left: 15px;
 	float: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 section {
