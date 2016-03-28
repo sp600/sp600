@@ -40,6 +40,10 @@ body {
 .contact > .jumbotron {
 	background-image: url("../res/contact.jpg");
 }
+
+.jumbotron > p {
+	color: #A51C30;
+}
 .navbar-brand {
 	padding: 0 15px 15px 15px;
 	margin: 5px;
