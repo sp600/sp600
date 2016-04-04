@@ -43,6 +43,8 @@ body {
 
 .jumbotron > p {
 	color: #A51C30;
+	font-family: 'Garamond', serif;
+	font-size: 72px;
 }
 .navbar-brand {
 	padding: 0 15px 15px 15px;
