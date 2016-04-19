@@ -85,3 +85,7 @@ section {
 	margin: auto;
 	padding: 10px;
 }
+
+.dropdown-menu {
+	font-size: 150%;
+}
