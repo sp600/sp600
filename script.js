@@ -124,7 +124,8 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TESTIMONIALS1': 'Our team has the personal experience and knowledge of the admissions and application process - we know the in\'s and out\'s of standardized testing, and understand how difficult and time consuming certain courses and exams are. Our extensive understanding of the U.S. college system, selection criteria, acceptance rates, and what they look for in a candidate is based on empirical facts and knowledge.',
 		'TESTIMONIALS2': 'Our team members have attended a variety of schools, and can speak to the real difference between public and private, liberal arts and technical, and large and small schools. We also have admissions and professional contacts at universities that can give us the inside-scoop and latest news happening on campus. ',
 		'TESTIMONIALS3': 'We seek to bridge the divide between the two generations – parents and students. Acting as a translator and mediator between parents\' intentions and students\' aspirations. We are fluent in English, Mandarin, and Cantonese, and work non-stop to bring you the results that you deserve. ',
-		//Colleges Section
+    'TESTIMONIALS4': 'List of schools our students have been admitted to',
+    //Colleges Section
 		'COLLEGES1': 'Adelphi University',
 		'COLLEGES2': 'Barnard College',
 		'COLLEGES3': 'Berklee College of Music',
@@ -244,6 +245,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TESTIMONIALS1': '我们拥有强烈的愿望，无私的爱心，积极的态度和宝贵的经验，更有不断地探索，不懈地努力的精神去帮助有需求的学生进入他们最理想的大学. 具有当年申请大学的亲身经历和成功经验，是最前沿的最新亲历者，都是实战经历，不是纸上谈兵',
 		'TESTIMONIALS2': '有良好完善的名校同学人脉网络和大学信息资源. 身临其境，更真实地了解不同大学的优势，录取倾向，标准及择优条件. 每个队员都曾有独特精彩的大学学习经历，能提供给学生难能可贵的借鉴经验. 每个队员都有着不同的求职经历及宝贵经验，更了解哪些大学及专业倍受关注与钦赖',
 		'TESTIMONIALS3': '我们有在中国和美国生活的不同经历和亲身体验，更了解中国学生和家长的处境和愿望. 流利英文，国语，广东话， 便于与家长/学生沟通交流',
+    'TESTIMONIALS4': '学生被录取的院校如下',
 		//Colleges Section
 		'COLLEGES1': 'Adelphi University',
 		'COLLEGES2': 'Barnard College',
