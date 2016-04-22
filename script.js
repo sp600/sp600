@@ -59,6 +59,14 @@ scotchApp.config(function($routeProvider) {
 // DAN - Change this part
 scotchApp.config(['$translateProvider', function($translateProvider) {
 	$translateProvider.translations('en', {
+    //Navbar
+    'N_ABOUT': 'About',
+    'N_SERVICES': 'Services',
+    'N_DOMESTIC': 'Domestic',
+    'N_INTERNATIONAL': 'International',
+    'N_TESTIMONIALS': 'Testimonials',
+    'N_TEAM': 'Team',
+    'N_CONTACT': 'Contact',
 		// About Us
 		'ABOUT': 'Ivy Target is a college admissions counseling company that was founded by the students, for the students. We seek to match students and their academic and personal capabilities to colleges and universities. For many students and parents, the process seems arduous and complex, with often no source of help or resource other than the school’s overstaffed guidance counselor. '
 			+ 'In particular, we understand more than anyone the problems facing college applicants, having gone through the process ourselves. We feel both honored and obligated to pay it forward, and pass on the knowledge and experience garnered since our high school days. Everything from class selection in high school, standardized testing planning, resume and essay writing, to building your own customized set of colleges and more, our insights are unmatched by few. Ivy Target is here to help you reach your target.',
@@ -185,6 +193,14 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 	  });
 
 	  $translateProvider.translations('cn', {
+    //Navbar
+    'N_ABOUT': '关于我们',
+    'N_SERVICES': '服务项目',
+    'N_DOMESTIC': '美国学生',
+    'N_INTERNATIONAL': '中国留学生',
+    'N_TESTIMONIALS': '成功见证',
+    'N_TEAM': '团队成员',
+    'N_CONTACT': '联系方式',
 	  	// About Us
 		'ABOUT': '我们是毕业于美国长青藤大学的一群优秀学子，当年的学业和升学都遇到了很大的挑战，但是我们都从艰难困境中成功地走了出来。回首往日我们冲语言障碍，考特殊高中，学特长技能，做有效义工，写大学论文，填助学补助申请，等等。 过关斩将, 踏进名校，再入理想职场。展望前程，辉煌似锦! '
 			+ '今天我们特别理解与我们一样面临着挑战的学弟学妹们。因此，我们更觉得应当有这份爱心和义务在工作和学习之余，将我们所得的宝贵经验和深刻教训毫无保留地与你们分享。最值得我们感到欣慰的是,我们真诚的服务与帮助已经使许多学生进入了超越他们自身水平的理想大学。',
