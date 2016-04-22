@@ -83,6 +83,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'Angela': 'Graduated from Boston College with an undergraduate degree in math and computer science. She enjoys discovering and trying out new restaurants and venues',
 		'Steve': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature',
 		//Domestic Services Section
+    'DOMESTIC0': 'Domestic services for high school students based in the United States',
 		'DOMESTIC1': 'Complete high school planning process and college application guidance',
 		'DOMESTIC2': 'Develop a plan for high school classes every year, including electives, honors, and Advanced Placement (AP)',
 		'DOMESTIC3': 'Schedule the right time for standardized exams such as SAT, ACT, and SAT II’s to ensure minimum overlap and disruption',
@@ -204,6 +205,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'Angela': '毕业于波士顿大学(Boston College)数学与计算机专业。总是喜欢发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
 		'Steve': '毕业于芝加哥大学（University of Chicago）英语文学，及历史专业。酷爱绘画与德国文学史。',
 		//Domestic Services
+    'DOMESTIC0': '美国高中生申请大学服务内容',
 		'DOMESTIC1': '完成高中规划及大学申请指导的全过程:',
 		'DOMESTIC2': '根据学生的情况每年制定切实可行的学习计划，指导学生合理选课---必修课程, 荣誉课（Honor）及大学先修课（AP）。',
 		'DOMESTIC3': '评估学生学科进度与水平，规划最佳考试时间（SAT, ACT， SAT II），确保考试能得到最大限度地发挥。',
