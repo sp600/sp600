@@ -124,8 +124,9 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'SERVICES10': 'Airport pick up, as well as escort and help to open bank account, cell phone service, and initial necessities shopping. NOTE if school is not within range of our members, we cannot provide this service',
 		'SERVICESH5': 'Routine check-in after starting school (high school students only)',
 		'SERVICES11': 'Act as guardians for the students to check on their progress, host family, school life, and any situations that come up. We will communicate regularly with schools and host families and act as liaisons to the parents. ',
-		'SERVICES12': 'Regularly visit the students and hold holiday reunion activities with other students and day trips',
-		'SERVICES13': 'Advise and develop the students\' overall academic and professional development in preparation for college',
+		'SERVICES12': 'Regularly visit the students, acting as a legal guardian here in the the U.S. We will also monitor the student's academc performance, as well as any other issues that come up
+		'SERVICES13': 'We will also hold frequent communication and check-ins with the parents,  and hold holiday reunion activities with other students and day trips',
+		'SERVICES14': 'Advise and develop the students\' overall academic and professional development in preparation for college'
 
 		//Testimonials Section
 		'TESTIMONIALS': 'Why Ivy Target?',
