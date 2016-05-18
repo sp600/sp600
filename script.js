@@ -91,7 +91,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'Angela': 'Graduated from Boston College with an undergraduate degree in math and computer science. In her spare time, she is an avid ballet dancer and has won many awards. She also enjoys trying out new restaurants and venues.',
 		'Steve': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature.',
 		//Domestic Services Section
-    'DOMESTIC0': 'Domestic services for high school students based in the United States',
+    		'DOMESTIC0': 'Domestic services for high school students based in the United States',
 		'DOMESTIC1': 'Complete high school planning process and college application guidance',
 		'DOMESTIC2': 'Develop a plan for high school classes every year, including electives, honors, and Advanced Placement (AP)',
 		'DOMESTIC3': 'Schedule the right time for standardized exams such as SAT, ACT, and SAT II’s to ensure minimum overlap and disruption',
@@ -134,7 +134,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TESTIMONIALS2': 'Our team members have attended a variety of schools, and can speak to the real difference between public and private, liberal arts and technical, and large and small schools. We also have admissions and professional contacts at universities that can give us the inside-scoop and latest news happening on campus. ',
 		'TESTIMONIALS3': 'We seek to bridge the divide between the two generations – parents and students. Acting as a translator and mediator between parents\' intentions and students\' aspirations. We are fluent in English, Mandarin, and Cantonese, and work non-stop to bring you the results that you deserve. ',
     		'TESTIMONIALS4': 'List of schools our students have been admitted to',
-    //Colleges Section
+		 //Colleges Section
 		'COLLEGES1': 'Adelphi University',
 		'COLLEGES2': 'Barnard College',
 		'COLLEGES3': 'Berklee College of Music',
@@ -223,7 +223,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'Angela': '毕业于波士顿大学(Boston College)数学与计算机专业。自幼练芭蕾舞，并获过大奖。总是乐于发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
 		'Steve': '毕业于芝加哥大学（University of Chicago）英语文学，及历史专业。酷爱绘画与德国文学史。',
 		//Domestic Services
-    'DOMESTIC0': '美国高中生申请大学服务内容',
+    		'DOMESTIC0': '美国高中生申请大学服务内容',
 		'DOMESTIC1': '完成高中规划及大学申请指导的全过程:',
 		'DOMESTIC2': '根据学生的情况每年制定切实可行的学习计划，指导学生合理选课---必修课程, 荣誉课（Honor）及大学先修课（AP）。',
 		'DOMESTIC3': '评估学生学科进度与水平，规划最佳考试时间（SAT, ACT, SAT II），确保考试能得到最大限度地发挥。',
@@ -263,7 +263,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'TESTIMONIALS1': '我们拥有强烈的愿望，无私的爱心，积极的态度和宝贵的经验，更有不断地探索，不懈地努力的精神去帮助有需求的学生进入他们最理想的大学. 具有当年申请大学的亲身经历和成功经验，是最前沿的最新亲历者，都是实战经历，不是纸上谈兵。',
 		'TESTIMONIALS2': '有良好完善的名校同学人脉网络和大学信息资源. 身临其境，更真实地了解不同大学的优势，录取倾向，标准及择优条件. 每个队员都曾有独特精彩的大学学习经历，能提供给学生难能可贵的借鉴经验. 每个队员都有着不同的求职经历及宝贵经验，更了解哪些大学及专业倍受关注与钦赖。',
 		'TESTIMONIALS3': '我们有在中国和美国生活的不同经历和亲身体验，更了解中国学生和家长的处境和愿望. 流利英文，国语，广东话， 便于与家长/学生沟通交流。',
-    'TESTIMONIALS4': '学生被录取的院校如下',
+    		'TESTIMONIALS4': '学生被录取的院校如下',
 		//Colleges Section
 		'COLLEGES1': 'Adelphi University',
 		'COLLEGES2': 'Barnard College',
