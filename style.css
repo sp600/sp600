@@ -47,6 +47,10 @@ body {
 	font-family: 'Garamond', serif;
 	font-size: 175px;
 }
+
+.navbar {
+	border-bottom: 5px solid black;
+}
 .navbar-brand {
 	padding: 0 15px 15px 15px;
 	margin: 5px;

@@ -193,6 +193,8 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'COLLEGES54': 'Vanderbilt University',
 		'COLLEGES55': 'Washington University in St. Louis',
 		'COLLEGES56': 'Yale University',
+    // Contact Section
+    'FORM_HEADER': 'Please fill out the following form, then press submit. Someone from our team will be in touch shortly.',
 	  });
 
 	  $translateProvider.translations('cn', {
@@ -325,6 +327,8 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'COLLEGES54': 'Vanderbilt University',
 		'COLLEGES55': 'Washington University in St. Louis',
 		'COLLEGES56': 'Yale University',
+    // Contact Section
+    'FORM_HEADER': '请你填写下面资料， 然后按 “Submit "键递交， 我们会尽快回复你。',
 	  });
 	  $translateProvider.preferredLanguage('en');
 }])
