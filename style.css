@@ -23,7 +23,7 @@ body {
 	padding-top: 110px; /* navbar height + 10 */
 }
 .about > .jumbotron  {
-	background-image: url("../res/about.jpeg");
+	background-image: url("../res/contact_2.jpeg");
 }
 
 .services > .jumbotron {
@@ -39,7 +39,7 @@ body {
 }
 
 .contact > .jumbotron {
-	background-image: url("../res/contact_2.jpeg");
+	background-image: url("../res/about.jpeg");
 }
 
 .jumbotron > p {
