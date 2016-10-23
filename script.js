@@ -225,7 +225,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 			+ '闲暇时间喜欢演奏乐器，练太极拳，以及阅读。',
 		'Daniel': '毕业于长青藤名校康奈尔大学(Cornell University)工程学院，现兼任康奈尔大学招生官。 热爱运动，擅长长跑和室内攀岩。热衷金融，善于投资理财。',
 		'Chris': '毕业于长青藤名校滨州大学(University of Pennsylvania)物理系，现就读于另一所长青藤名校耶鲁大学(Yale University)攻读量子物理学博士。擅长玩飞碟，经常参加训练与比赛，还非常喜欢自己烹饪美食。',
-		'John': '毕业于纽约大学史顿商学院(NYU Stern)，获硕士学位。喜欢旅行和赛自行车。',
+		'Aaron': '毕业于纽约大学史顿商学院(NYU Stern)，获硕士学位。喜欢旅行和赛自行车。',
 		'Angela': '毕业于波士顿大学(Boston College)数学与计算机专业。自幼练芭蕾舞，并获过大奖。总是乐于发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
 		'Steve': '毕业于芝加哥大学（University of Chicago）英语文学，及历史专业。酷爱绘画与德国文学史。',
 		//Domestic Services
