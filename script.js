@@ -89,7 +89,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'Susan': 'Graduated from China Normal University, and completed graduate and professional studies in education in the United States. She has 30+ years of teaching and education experience, with a holistic understanding of both Chinese and American education systems. In her spare time, she enjoys playing musical instruments, practicing Tai-Chi, and reading. ',
 		'Daniel': 'Graduated from Cornell University with an undergraduate degree in engineering. In his free time, he enjoys long distance running and investing in the financial markets.',
 		'Chris': 'Graduated from University of Pennsylvania with an undergraduate degree in physics. He is currently pursuing a PhD from Yale University in quantum physics. In his spare time, he plays competitive ultimate at the college level and enjoys cooking.',
-		'John': 'Graduated from New York University with an undergraduate degree in finance and economics. He enjoys traveling and biking.',
+		'Aaron': 'Graduated from New York University with an undergraduate degree in finance and economics. He enjoys traveling and biking.',
 		'Angela': 'Graduated from Boston College with an undergraduate degree in math and computer science. In her spare time, she is an avid ballet dancer and has won many awards. She also enjoys trying out new restaurants and venues.',
 		'Steve': 'Graduated from University of Chicago with an undergraduate degree in English and history. He enjoys painting (any medium) and German literature.',
 		//Domestic Services Section
