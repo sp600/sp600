@@ -201,8 +201,8 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
     //Navbar
     'N_ABOUT': '关于我们',
     'N_SERVICES': '服务项目',
-    'N_DOMESTIC': '美国学生',
-    'N_INTERNATIONAL': '中国留学生',
+    'N_DOMESTIC': '申请大学',
+    'N_INTERNATIONAL': '申请留学',
     'N_TESTIMONIALS': '成功见证',
     'N_TEAM': '团队成员',
     'N_CONTACT': '联系方式',
@@ -229,7 +229,7 @@ scotchApp.config(['$translateProvider', function($translateProvider) {
 		'Angela': '毕业于罗德岛美术学院 (Rhode Island School of Design)，主修艺术。对艺术院校的申请有更加专业的见解。处理事情非常细心，耐心，专心，对于学生选择学校和专业所面临的困惑与问题能给予有效的指导解决。自幼学习芭蕾舞,并荣获比赛大奖。总是乐于发现寻找新的事物与活动，喜欢到不同的酒店品尝美食佳肴。',
 		'Steve': '毕业于芝加哥大学 (University of Chicago)，英语文学及历史专业。并取得硕士学位。善于结合学生的学习能力，实践经验以及职业规划，制定个性化申请方案。分析学生的优势与不足，扬长避短，指导学生撰写出独具风格的大学申请文章。酷爱绘画，音乐及德国文学史。',
 		//Domestic Services
-    		'DOMESTIC0': '美国高中生申请大学服务内容',
+    		'DOMESTIC0': '就读美国高中申请大学服务内容',
 		'DOMESTIC1': '完成高中规划及大学申请指导的全过程:',
 		'DOMESTIC2': '根据学生的情况每年制定切实可行的学习计划，指导学生合理选课---必修课程, 荣誉课（Honor）及大学先修课（AP）。',
 		'DOMESTIC3': '评估学生学科进度与水平，规划最佳考试时间（SAT, ACT, SAT II），确保考试能得到最大限度地发挥。',
